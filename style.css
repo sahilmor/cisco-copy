@@ -18,7 +18,7 @@ html, body{
 .nav-top{
     width: 100%;
     height: 30px;
-    background-color: rgb(226, 226, 226);
+    background-color: rgb(241, 244, 244);
     display: flex;
     align-items: center;
     justify-content: end;
@@ -29,7 +29,6 @@ html, body{
     text-decoration: none;
     list-style: none;
     padding-right: 50px;
-    /* gap: 30px; */
 }
 
 .nav-top ul li{
@@ -91,9 +90,9 @@ html, body{
     font-family:  'Nanum Gothic', sans-serif;
     width: 750px;
     color: white;
-    font-size: 70px;
+    font-size: 50px;
     font-weight: 100;
-    padding: 160px 50px 20px 70px;
+    padding: 160px 50px 20px 50px;
 }
 
 .promote-info h4{
@@ -101,12 +100,12 @@ html, body{
     width: 750px;
     font-family: 'Nanum Gothic', 'sans-serif';
     font-weight: 100;
-    padding: 10px 70px;
+    padding: 10px 50px;
     font-size: 20px;
 }
 
 .promote-info button{
-    height: 70px;
+    height: 50px;
     width: 150px;
     border: none;
     border-radius: 50px;
@@ -129,6 +128,11 @@ html, body{
 
 .promote-btn2 a{
     text-decoration: none;
+    color: white;
+}
+
+.promote-btn2:hover{
+    text-decoration: underline;
     color: white;
 }
 
@@ -221,6 +225,10 @@ html, body{
     color: rgb(88, 88, 232);
 }
 
+.container1 a:hover{
+    text-decoration: underline;
+}
+
 .card2{
     height: 450px;
     width: 400px;
@@ -252,6 +260,10 @@ html, body{
     font-size: 17px;
     font-weight: 600;
     color: rgb(88, 88, 232);
+}
+
+.container2 a:hover{
+    text-decoration: underline;
 }
 
 .card3{
@@ -287,6 +299,10 @@ html, body{
     color: rgb(88, 88, 232);
 }
 
+.container3 a:hover{
+    text-decoration: underline;
+}
+
 .img-info{
     width: 100%;
 }
@@ -298,7 +314,7 @@ html, body{
     margin: 50px 0px 0px 0px;
     align-items: center;
     justify-content: space-evenly;
-    padding: 0px 70px;
+    padding: 0px 50px;
 }
 
 .part1 img{
@@ -352,9 +368,19 @@ html, body{
     color: white;
 }
 
+.part1-btn1:hover{
+    cursor: pointer;
+    background-color: rgb(5, 67, 134);
+}
+
 .part1-btn2{
     background-color: white;
     color: rgb(7, 96, 191);
+}
+
+.part1-btn2:hover{
+    text-decoration: underline;
+    cursor: pointer;
 }
 
 .part1-btn2 a{
@@ -368,7 +394,7 @@ html, body{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    padding: 0px 70px;
+    padding: 0px 50px;
 }
 
 .part2 img{
@@ -422,10 +448,20 @@ html, body{
     color: white;
 }
 
+.part2-btn1:hover{
+    cursor: pointer;
+    background-color: rgb(5, 67, 134);
+}
+
 .part2-btn2{
     background-color: white;
     color: rgb(7, 96, 191);
     margin-right: 100px;
+}
+
+.part2-btn2:hover{
+    text-decoration: underline;
+    cursor: pointer;
 }
 
 .part2-btn2 a{
@@ -439,7 +475,7 @@ html, body{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    padding: 0px 70px;
+    padding: 0px 50px;
 }
 
 .part3 img{
@@ -493,12 +529,296 @@ html, body{
     color: white;
 }
 
+.part3-btn1:hover{
+    cursor: pointer;
+    background-color: rgb(5, 67, 134);
+}
+
 .part3-btn2{
     background-color: white;
     color: rgb(7, 96, 191);
 }
 
+.part3-btn2:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
 .part3-btn2 a{
     color: rgb(7, 96, 191);
     text-decoration: none;
+}
+
+.vid-section{
+    width: 100%;
+    height: 700px;
+}
+
+.vid-section h1{
+    font-size: 30px;
+    font-weight: 100;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.vid-section h5{
+    font-size: medium;
+    font-weight: 100;
+    text-align: center;
+    padding: 20px;
+}
+
+.vid-section iframe{
+    padding: 40px 340px 40px 340px;
+    height: 560px;
+    width: 100%;
+}
+
+.news-section{
+    width: 100%;
+    height: 500px;
+    margin-top: 90px;
+    padding: 0px 120px 0px 120px;
+}
+
+.top-part{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.top-part h1{
+    font-size: 40px;
+    font-weight: 100;
+}
+
+.top-part ul{
+    display: flex;
+}
+
+.top-part ul li{
+    list-style: none;
+    padding-left: 30px;
+}
+
+.top-part ul li a{
+    text-decoration: none;
+    font-weight: 600;
+    color: rgb(88, 88, 232);
+}
+
+.top-part ul li a:hover{
+    text-decoration: underline;
+}
+
+.btm-part{
+    display: flex;
+    width: 100%;
+    height: 400px;
+    margin-top: 40px;
+}
+
+.btm-card1{
+    height: 100%;
+    padding-right: 50px;
+    width: 1300px;
+}
+
+.btm-card1 h4{
+    font-weight: 600;
+    font-size: large;
+    margin-bottom: 10px;
+}
+
+.btm-card1 h2{
+    font-weight: 100;
+    font-size: 22px;
+    margin: 30px 0px;
+}
+
+.btm-card1 p{
+    font-weight: 100;
+    font-size: 17px;
+    margin: 30px 0px;
+}
+
+.btm-card1 a{
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+    color: rgb(88, 88, 232);
+    margin: 30px 0px;
+}
+
+.btm-card1 a:hover{
+    text-decoration: underline;
+}
+
+.btm-card2{
+    padding-right: 50px;
+    width: 1300px;
+}
+
+.btm-card2 h4{
+    font-weight: 600;
+    font-size: large;
+    margin-bottom: 10px;
+}
+
+.btm-card2 h2{
+    font-weight: 100;
+    font-size: 22px;
+    margin: 30px 0px;
+}
+
+.btm-card2 p{
+    font-weight: 100;
+    font-size: 17px;
+    margin: 30px 0px;
+}
+
+.btm-card2 a{
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+    color: rgb(88, 88, 232);
+    margin: 30px 0px;
+}
+
+.btm-card2 a:hover{
+    text-decoration: underline;
+}
+
+.btm-card3{
+    padding-right: 50px;
+    width: 1300px;
+}
+
+.btm-card3 h4{
+    font-weight: 600;
+    font-size: large;
+    margin-bottom: 10px;
+}
+
+.btm-card3 h2{
+    font-weight: 100;
+    font-size: 22px;
+    margin: 30px 0px;
+}
+
+.btm-card3 p{
+    font-weight: 100;
+    font-size: 17px;
+    margin: 30px 0px;
+}
+
+.btm-card3 a{
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+    color: rgb(88, 88, 232);
+    margin: 30px 0px;
+}
+
+.btm-card3 a:hover{
+    text-decoration: underline;
+}
+
+.footer-section{
+    width: 100%;
+    height: 220px;
+    background-color: rgb(241, 244, 244);
+    padding: 30px 30px;
+}
+
+.ftr-top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 96%;
+    height: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.about-section{
+    display: flex;
+    padding: 0px 20px;
+}
+
+.about-section li{
+    text-decoration: none;
+    list-style: none;
+    padding: 0px 20px;
+    font-size: 12px;
+    color: gray;
+}
+
+.about-section li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.pages{
+    display: flex;
+}
+
+.pages li{
+    text-decoration: none;
+    list-style: none;
+    padding: 0px 20px;
+    font-size: 25px;
+    color: gray;
+}
+
+.ri-facebook-circle-fill:hover{
+    color: rgb(31, 31, 253);
+}
+
+.ri-twitter-x-line:hover{
+    color: black;
+}
+
+.ri-linkedin-box-fill:hover{
+    color: rgb(16, 16, 133);
+}
+
+.ri-youtube-fill:hover{
+    color: red;
+}
+
+.ftr-middle{
+    margin: 10px 0px 25px 8px;
+}
+
+.ftr-middle ul{
+    display: flex;
+    width: 80%;
+    height: 50px;
+    align-items: center;
+    justify-content: space-evenly;
+    color: gray;
+}
+
+.ftr-middle ul li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.ftr-middle ul li{
+    text-decoration: none;
+    list-style: none;
+    font-size: 12px;
+}
+
+.ftr-btm{
+    font-size: 12px;
+    margin-left: 45px;
+    color: gray;
+}
+
+.footer-section hr{
+    margin-top: 25px;
+    width: 93%;
+    margin-left: 50px;
 }
